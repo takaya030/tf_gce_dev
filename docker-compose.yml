@@ -1,0 +1,7 @@
+version: "3.4"
+services:
+  terraform: 
+    image: "hashicorp/terraform:light"
+    volumes:
+      - $PWD:/app/
+    working_dir: /app/
